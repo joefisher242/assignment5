@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    
+</head>
+
+
+<body style="background-color: rgba(128, 128, 128, 0.83)">
+
+    <header>
+        <a href="index.html"> <img src="Images/sports.png" alt="Sports" height="75">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="favorites.html">Favorite Teams</a></li>
+                <li><a href="stories.html">Stories</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+       
+        <form action="thankyou.html">
+            <p>Please fill out this information:</p>
+            <p>
+                <label for="firstname">First Name:</label>    
+                <input type="text" name="firstname" id="firstname">
+            </p>    
+            <p>
+                <label for="lastname">Last Name:</label>
+                <input type="text" name="lastname" id="lastname">
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email">
+            </p>
+            
+            <p>
+                <label for="how-you-heard">How did you hear about us?</label>
+                <select name="how-you-heard" id="how-you-heard">
+                    <option value="friend">Friend</option>
+                    <option value="email">Email</option>
+                    <option value="ad">Advertisement</option>
+                    <option value="web">Website</option>
+                    <option value="search">Google Search</option>
+                </select>
+            </p>
+            
+            <p>
+                <label for="comments">Comments:</label>
+                <textarea name="comments" id="comments" rows="4" cols="48"></textarea>
+            </p>
+            
+            <div class="radio-buttons">
+                <label>Would you like to join our newsletter?</label>
+                <input type="radio" name="join-our-newsletter" value="Yes" checked> Yes
+                <input type="radio" name="join-our-newsletter" value="No"> No
+            </div>
+            <br>
+            
+            <div class="checkboxes">
+                <label>What is your favorite sport?</label>
+                <input type="checkbox" name="fav-sport" value="Football" checked>Football
+                <input type="checkbox" name="fav-sport" value="Basketball">Basketball
+                <input type="checkbox" name="fav-sport" value="Hockey">Hockey
+                <input type="checkbox" name="fav-sport" value="Lacrosse">Lacrosse
+            </div>
+            <br>
+            
+            <p>
+                <label></label>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">        
+            </p>
+            
+        </form>
+        
+
+    </main>
+
+
+
+    <footer>
+        <br><a href="https://bleacherreport.com/" target="_blank">B/R</a>
+        <br><a href="http://www.espn.com/" target="_blank">ESPN</a>
+    </footer>
+
+
+</body>
+
+</html>

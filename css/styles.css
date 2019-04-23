@@ -1,0 +1,135 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.logo {
+    padding: .5em;
+    height: 5em;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+header nav {
+    flex: 1;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav li {
+    list-style-type: none;
+    padding: .5em;
+}
+
+body {
+    background-repeat: no-repeat;      
+}
+
+h1 {
+    text-align: center;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+}
+
+footer {
+    text-align: right;
+}
+
+
+.cis260special {
+    color: black;
+/*    border: 2px solid;*/
+    background-color: white;
+}
+
+.homepagered {
+    color: red;
+}
+
+.blood {
+    color: red
+}
+
+#cis-special-parent a {
+    color: #90622c;    
+}
+
+#context p {
+    color: orange;
+}
+
+a:link {
+    color: white
+}
+
+a:hover {
+    color: aqua
+}
+
+a {
+    color: white;
+    font-size: 18px;
+}
+
+
+.icy {
+    color: white;
+}
+
+.nazpurple {
+    color: #8710c6;
+    border: 2px solid #000000;
+    
+}
+
+.nazgold {
+    color: #bab35b;
+    font-size: 1.2em;
+    border: 2px solid #000000;
+    background-color: white;
+}
+
+.blood {
+    font-size: 1.2em;
+    border: 2px solid #000000;
+    background-color: black;
+    text-align: center;
+}
+
+@media screen and (max-width: 30rem) {
+    header,
+    main,
+    footer,
+    form p {
+        flex-direction: column;
+    }    
+}
+
+form input, textarea {
+    margin: 2px 0;
+}
+
+form p {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+form label {
+    flex-basis: 33%
+}
+
+form input, textarea, select {
+    flex: 1;
+    margin: 0 1em;
+    border-radius: 5px;
+}
+
+form select {
+    text-align: center;
+}
